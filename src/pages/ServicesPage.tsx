@@ -43,6 +43,7 @@ export const ServicesPage = () => {
                 description="We build AI automation systems and autonomous agents that run your business operations on autopilot."
                 keywords="AI automation, AI agents, workflow automation"
                 canonical="https://manuv.co/services"
+                ogUrl="https://manuv.co/services"
             />
 
             {/* Neural Network Hero with Shader Background */}

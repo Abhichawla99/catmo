@@ -11,6 +11,7 @@ export const AboutPage = () => {
                 description="A boutique AI implementation studio building custom AI systems for teams that demand more than off-the-shelf solutions."
                 keywords="AI studio, AI consultancy, about manuv"
                 canonical="https://manuv.co/about"
+                ogUrl="https://manuv.co/about"
             />
 
             <div className="min-h-screen bg-background pt-32 pb-24 relative overflow-hidden">

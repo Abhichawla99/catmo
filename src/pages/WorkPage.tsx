@@ -151,6 +151,7 @@ export const WorkPage = () => {
                 description="Real AI systems. Real business outcomes. See our flagship products, AI agents, and automation systems built for scale."
                 keywords="AI systems, automation, AI agents, case studies"
                 canonical="https://manuv.co/work"
+                ogUrl="https://manuv.co/work"
             />
 
             {/* Hero Section with Neural Network Background */}

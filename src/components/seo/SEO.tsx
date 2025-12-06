@@ -6,9 +6,10 @@ interface SEOProps {
     keywords?: string;
     ogImage?: string;
     canonical?: string;
+    ogUrl?: string;
 }
 
-export const SEO = ({ title, description, keywords, ogImage, canonical }: SEOProps) => {
+export const SEO = ({ title, description, keywords, ogImage, canonical, ogUrl }: SEOProps) => {
     useEffect(() => {
         // Set title
         document.title = title;
@@ -70,6 +71,18 @@ export const SEO = ({ title, description, keywords, ogImage, canonical }: SEOPro
             }
         }
 
+        // Set OG URL
+        const ogUrlMeta = document.querySelector('meta[property="og:url"]');
+        const urlToSet = ogUrl || canonical || window.location.href;
+        if (ogUrlMeta) {
+            ogUrlMeta.setAttribute('content', urlToSet);
+        } else {
+            const meta = document.createElement('meta');
+            meta.setAttribute('property', 'og:url');
+            meta.content = urlToSet;
+            document.head.appendChild(meta);
+        }
+
         // Set canonical URL
         if (canonical) {
             let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement;
@@ -82,7 +95,7 @@ export const SEO = ({ title, description, keywords, ogImage, canonical }: SEOPro
                 document.head.appendChild(link);
             }
         }
-    }, [title, description, keywords, ogImage, canonical]);
+    }, [title, description, keywords, ogImage, canonical, ogUrl]);
 
     return null;
 };
