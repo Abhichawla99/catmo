@@ -3,7 +3,7 @@ import type { ReactNode } from 'react';
 import * as THREE from 'three';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
-import { SplitText } from 'gsap-trial/SplitText';
+import { SplitText } from 'gsap/SplitText';
 import { PixelShaderCard } from './pixel-shader-card';
 
 gsap.registerPlugin(SplitText);

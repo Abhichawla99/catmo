@@ -20,7 +20,6 @@
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.25",
     "gsap": "^3.13.0",
-    "gsap-trial": "^3.12.7",
     "lucide-react": "^0.556.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
