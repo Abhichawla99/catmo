@@ -22,6 +22,7 @@ export function AnimeNavBar({ items, className, defaultActive = "Home" }: NavBar
   const location = useLocation()
   const [hoveredTab, setHoveredTab] = useState<string | null>(null)
   const [activeTab, setActiveTab] = useState<string>(defaultActive)
+  const [bannerVisible, setBannerVisible] = useState(false)
 
   // Sync active tab with current location
   useEffect(() => {
@@ -37,8 +38,28 @@ export function AnimeNavBar({ items, className, defaultActive = "Home" }: NavBar
     }
   }, [location.pathname, items])
 
+  // Check if banner is visible
+  useEffect(() => {
+    const checkBanner = () => {
+      const showBanner = localStorage.getItem('manuv_show_banner')
+      const bannerDismissed = localStorage.getItem('manuv_banner_dismissed')
+      setBannerVisible(showBanner === 'true' && !bannerDismissed)
+    }
+
+    checkBanner()
+    // Listen for storage changes
+    window.addEventListener('storage', checkBanner)
+    // Also check periodically in case localStorage changes in same tab
+    const interval = setInterval(checkBanner, 500)
+
+    return () => {
+      window.removeEventListener('storage', checkBanner)
+      clearInterval(interval)
+    }
+  }, [])
+
   return (
-    <div className={cn("fixed top-5 left-0 right-0 z-[9999]", className)}>
+    <div className={cn("fixed left-0 right-0 z-[9999] transition-all duration-300", bannerVisible ? "top-16" : "top-5", className)}>
       <div className="flex justify-center pt-6">
         <motion.div
           className="flex items-center gap-3 bg-black/50 border border-white/10 backdrop-blur-lg py-2 px-2 rounded-full shadow-lg relative"

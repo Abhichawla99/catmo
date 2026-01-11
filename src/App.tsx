@@ -6,6 +6,8 @@ import { Footer } from './components/layout/Footer';
 import { useWebView } from './hooks/use-webview';
 import { ChatInterface } from './components/ui/chat-interface';
 import { FloatingChatBar } from './components/ui/floating-chat-bar';
+import { FreeAgentPopup } from './components/FreeAgentPopup';
+import { FreeAgentBanner } from './components/FreeAgentBanner';
 import { ChatProvider, useChat } from './contexts/ChatContext';
 import { HomePage } from './pages/HomePage';
 import { ServicesPage } from './pages/ServicesPage';
@@ -372,16 +374,22 @@ function AppContent() {
         </main>
         <Footer />
         <Analytics />
-        
+
+        {/* Free Agent Banner - Shows at top after popup is dismissed */}
+        <FreeAgentBanner />
+
         {/* Floating Chat Bar - Shows when scrolled past hero */}
         <FloatingChatBar />
-        
+
         {/* Chat Interface - Always show */}
         <ChatInterface
           isOpen={isChatOpen}
           onClose={handleCloseChat}
           initialMessage={initialMessage}
         />
+
+        {/* Free Agent Popup - Shows once on first visit */}
+        <FreeAgentPopup />
       </div>
     </Router>
   );
