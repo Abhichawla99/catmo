@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
+import { useLocation } from 'react-router-dom';
 import { HeroChatBar } from './hero-chat-bar';
 import { useChat } from '../../contexts/ChatContext';
 
@@ -8,6 +9,7 @@ export function FloatingChatBar() {
   const [scrollProgress, setScrollProgress] = useState(0);
   const heroRef = useRef<HTMLElement | null>(null);
   const { isChatOpen, handleSendMessage, handleOpenChat } = useChat();
+  const location = useLocation();
 
   useEffect(() => {
     // Find the hero section
@@ -58,10 +60,12 @@ export function FloatingChatBar() {
     };
   }, []);
 
-  // Only show floating bar when scrolled past hero and chat is not open
+  // Only show floating bar when scrolled past hero, chat is not open, and not on assessment page
+  const isAssessmentPage = location.pathname === '/assessment';
+
   return (
     <AnimatePresence mode="wait">
-      {isScrolled && !isChatOpen && (
+      {isScrolled && !isChatOpen && !isAssessmentPage && (
         <motion.div
           key="floating-chat-wrapper"
           initial={{ opacity: 0 }}

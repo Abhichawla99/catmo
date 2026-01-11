@@ -238,19 +238,15 @@ export const Hero = () => {
 
                         {/* Main Headline */}
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground tracking-tight mb-6 leading-[1.1]">
-                            Stop Working.
-                            <br />
+                            Free Your Team to Do{' '}
                             <span className="bg-gradient-to-r from-primary via-pink-400 to-primary bg-clip-text text-transparent">
-                                Start Automating.
+                                Their Best Work
                             </span>
                         </h1>
 
                         {/* Subheadline */}
                         <p className="text-lg text-muted-foreground max-w-lg mb-10 leading-relaxed">
-                            We design custom AI agents and workflow engines that eliminate the tasks draining your team’s time.
-                            <br />
-                            <br />
-                            Faster delivery. Fewer mistakes. More profit — without adding headcount.
+                            Custom AI agents that handle data entry and repetitive tasks—so your team can focus on the strategic, high-impact work they actually love.
                         </p>
 
                         {/* Chat Bar - Only show when not scrolled */}
@@ -267,8 +263,8 @@ export const Hero = () => {
 
                         {/* CTA Buttons */}
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <Link to="/contact" className="px-8 py-4 bg-primary hover:bg-primary/90 text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(255,0,136,0.4)] text-center">
-                                Book a Discovery Call
+                            <Link to="/assessment" className="px-8 py-4 bg-primary hover:bg-primary/90 text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(255,0,136,0.4)] text-center">
+                                Take Free Assessment
                             </Link>
                             <Link to="/work" className="px-8 py-4 bg-white/10 hover:bg-white/20 text-foreground font-semibold rounded-full border border-white/20 transition-all duration-300 hover:scale-105 text-center">
                                 See Our Work
