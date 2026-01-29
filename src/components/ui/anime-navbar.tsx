@@ -9,6 +9,7 @@ interface NavItem {
   url: string
   icon: LucideIcon
   isButton?: boolean
+  isExternal?: boolean
   matchPaths?: string[]
 }
 
@@ -41,8 +42,8 @@ export function AnimeNavBar({ items, className, defaultActive = "Home" }: NavBar
   // Check if banner is visible
   useEffect(() => {
     const checkBanner = () => {
-      const showBanner = localStorage.getItem('manuv_show_banner')
-      const bannerDismissed = localStorage.getItem('manuv_banner_dismissed')
+      const showBanner = localStorage.getItem('catmo_show_banner')
+      const bannerDismissed = localStorage.getItem('catmo_banner_dismissed')
       setBannerVisible(showBanner === 'true' && !bannerDismissed)
     }
 
@@ -62,7 +63,7 @@ export function AnimeNavBar({ items, className, defaultActive = "Home" }: NavBar
     <div className={cn("fixed left-0 right-0 z-[9999] transition-all duration-300", bannerVisible ? "top-16" : "top-5", className)}>
       <div className="flex justify-center pt-6">
         <motion.div
-          className="flex items-center gap-3 bg-black/50 border border-white/10 backdrop-blur-lg py-2 px-2 rounded-full shadow-lg relative"
+          className="flex items-center gap-1.5 sm:gap-3 bg-black/50 border border-white/10 backdrop-blur-lg py-1.5 sm:py-2 px-1.5 sm:px-2 rounded-full shadow-lg relative"
           initial={{ y: -20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
@@ -78,11 +79,28 @@ export function AnimeNavBar({ items, className, defaultActive = "Home" }: NavBar
 
             // Special styling for CTA button
             if (item.isButton) {
+              const buttonClasses = "relative cursor-pointer text-xs sm:text-sm font-semibold px-4 sm:px-6 py-2.5 sm:py-3 rounded-full transition-all duration-300 bg-primary hover:bg-primary/90 text-white hover:scale-105 hover:shadow-[0_0_20px_rgba(30,34,170,0.4)] flex items-center justify-center"
+
+              if (item.isExternal) {
+                return (
+                  <a
+                    key={item.name}
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={buttonClasses}
+                  >
+                    <span className="hidden md:inline">{item.name}</span>
+                    <span className="md:hidden"><Icon size={18} strokeWidth={2.5} /></span>
+                  </a>
+                )
+              }
+
               return (
                 <Link
                   key={item.name}
                   to={item.url}
-                  className="relative cursor-pointer text-sm font-semibold px-6 py-3 rounded-full transition-all duration-300 bg-primary hover:bg-primary/90 text-white hover:scale-105 hover:shadow-[0_0_20px_rgba(255,0,136,0.4)]"
+                  className={buttonClasses}
                 >
                   <span className="hidden md:inline">{item.name}</span>
                   <span className="md:hidden"><Icon size={18} strokeWidth={2.5} /></span>
@@ -98,7 +116,7 @@ export function AnimeNavBar({ items, className, defaultActive = "Home" }: NavBar
                 onMouseEnter={() => setHoveredTab(item.name)}
                 onMouseLeave={() => setHoveredTab(null)}
                 className={cn(
-                  "relative cursor-pointer text-sm font-semibold px-6 py-3 rounded-full transition-all duration-300",
+                  "relative cursor-pointer text-xs sm:text-sm font-semibold px-4 sm:px-6 py-2.5 sm:py-3 rounded-full transition-all duration-300",
                   "text-white/70 hover:text-white",
                   isActive && "text-white"
                 )}

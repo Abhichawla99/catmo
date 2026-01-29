@@ -40,12 +40,14 @@ export function FreeAgentBanner() {
             </div>
 
             <div className="flex items-center gap-3 flex-shrink-0">
-              <Link
-                to="/contact"
+              <a
+                href="https://calendar.app.google/QdxMrAa98Eq9Q7aU7"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-4 py-1.5 md:px-6 md:py-2 bg-white text-primary font-semibold text-sm rounded-full hover:bg-white/90 transition-all hover:scale-105 whitespace-nowrap"
               >
                 Book Free Call
-              </Link>
+              </a>
               <button
                 onClick={handleDismiss}
                 className="p-1.5 rounded-full hover:bg-white/20 transition-colors"

@@ -72,7 +72,7 @@ function AssessmentChatInterface() {
       // Get session ID
       const getSessionId = (): string => {
         try {
-          const storageKey = 'manuv_assessment_session_id';
+          const storageKey = 'catmo_assessment_session_id';
           let sessionId = localStorage.getItem(storageKey);
 
           if (!sessionId) {
@@ -198,7 +198,7 @@ function AssessmentChatInterface() {
       console.error('Error sending message:', error);
       const errorMessage = {
         role: 'assistant' as const,
-        content: 'Sorry, I encountered an error. Please try again or contact us directly at hello@manuv.co',
+        content: 'Sorry, I encountered an error. Please try again or contact us directly at hello@catmomedia.ca',
       };
       setMessages((prev) => [...prev, errorMessage]);
     } finally {
@@ -254,11 +254,10 @@ function AssessmentChatInterface() {
             )}
 
             <motion.div
-              className={`max-w-[80%] rounded-2xl px-4 py-3 ${
-                message.role === 'user'
-                  ? 'bg-primary/10 text-white border border-primary/20'
-                  : 'bg-white/[0.03] text-gray-100 border border-white/10'
-              }`}
+              className={`max-w-[80%] rounded-2xl px-4 py-3 ${message.role === 'user'
+                ? 'bg-primary/10 text-white border border-primary/20'
+                : 'bg-white/[0.03] text-gray-100 border border-white/10'
+                }`}
               whileHover={{ scale: 1.01 }}
               transition={{ type: "spring", stiffness: 400 }}
             >
@@ -354,11 +353,11 @@ export const AssessmentPage = () => {
   return (
     <>
       <SEO
-        title="Free Assessment: Discover Where You're Losing Money | manuv.co"
-        description="Take our free 2-minute assessment to uncover exactly which tasks are draining your budget and how AI agents can automate them starting today."
+        title="Free Assessment: Discover Where You're Losing Money | Catmo Media"
+        description="Take our free 2-minute assessment to uncover exactly which tasks are draining your budget and how Catmo Media can automate them starting today."
         keywords="AI assessment, business automation assessment, cost savings calculator, efficiency audit"
-        canonical="https://manuv.co/assessment"
-        ogUrl="https://manuv.co/assessment"
+        canonical="https://catmomedia.ca/assessment"
+        ogUrl="https://catmomedia.ca/assessment"
       />
 
       <div className="min-h-screen bg-background pt-32 pb-24">
@@ -385,12 +384,11 @@ export const AssessmentPage = () => {
             </motion.div>
 
             {/* Main Headline */}
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Get{' '}
-              <span className="bg-gradient-to-r from-primary to-pink-400 bg-clip-text text-transparent">
-                20 Hours Back
+            <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-10 tracking-tighter leading-[1.1]">
+              Gain <span className="italic font-normal text-white/90">20+ hours</span> back{' '}
+              <span className="bg-gradient-to-r from-primary to-pink-400 bg-clip-text text-transparent italic underline decoration-primary/20 underline-offset-[12px]">
+                every week
               </span>
-              {' '}Every Week
             </h1>
 
             {/* Subheadline */}

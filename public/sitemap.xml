@@ -6,7 +6,7 @@
   
   <!-- Homepage - Highest Priority -->
   <url>
-    <loc>https://manuv.co/</loc>
+    <loc>https://catmomedia.ca/</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -14,31 +14,31 @@
   
   <!-- Main Pages -->
   <url>
-    <loc>https://manuv.co/services</loc>
+    <loc>https://catmomedia.ca/services</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/work</loc>
+    <loc>https://catmomedia.ca/work</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/case-studies</loc>
+    <loc>https://catmomedia.ca/case-studies</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/about</loc>
+    <loc>https://catmomedia.ca/about</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/contact</loc>
+    <loc>https://catmomedia.ca/contact</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -46,37 +46,37 @@
   
   <!-- AI Agents - High Priority for SEO -->
   <url>
-    <loc>https://manuv.co/agents/ai-customer-support-agent</loc>
+    <loc>https://catmomedia.ca/agents/ai-customer-support-agent</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/agents/ai-sdr-agent</loc>
+    <loc>https://catmomedia.ca/agents/ai-sdr-agent</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/agents/ai-research-agent</loc>
+    <loc>https://catmomedia.ca/agents/ai-research-agent</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/agents/ai-content-agent</loc>
+    <loc>https://catmomedia.ca/agents/ai-content-agent</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/agents/ai-operations-agent</loc>
+    <loc>https://catmomedia.ca/agents/ai-operations-agent</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/agents/ai-data-agent</loc>
+    <loc>https://catmomedia.ca/agents/ai-data-agent</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -84,61 +84,61 @@
   
   <!-- Automation Systems - High Priority for SEO -->
   <url>
-    <loc>https://manuv.co/automations/lead-qualification-routing</loc>
+    <loc>https://catmomedia.ca/automations/lead-qualification-routing</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/automations/crm-enrichment-engine</loc>
+    <loc>https://catmomedia.ca/automations/crm-enrichment-engine</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/automations/inbox-crm-ingestion</loc>
+    <loc>https://catmomedia.ca/automations/inbox-crm-ingestion</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/automations/client-onboarding-flow</loc>
+    <loc>https://catmomedia.ca/automations/client-onboarding-flow</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/automations/automated-reporting-system</loc>
+    <loc>https://catmomedia.ca/automations/automated-reporting-system</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/automations/document-processing-pipeline</loc>
+    <loc>https://catmomedia.ca/automations/document-processing-pipeline</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/automations/data-sync-automation</loc>
+    <loc>https://catmomedia.ca/automations/data-sync-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/automations/email-marketing-automation</loc>
+    <loc>https://catmomedia.ca/automations/email-marketing-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/automations/social-media-automation</loc>
+    <loc>https://catmomedia.ca/automations/social-media-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/automations/workflow-automation</loc>
+    <loc>https://catmomedia.ca/automations/workflow-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -146,91 +146,91 @@
   
   <!-- Integration Pages - High Priority for SEO -->
   <url>
-    <loc>https://manuv.co/integrations/airtable</loc>
+    <loc>https://catmomedia.ca/integrations/airtable</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/integrations/anthropic</loc>
+    <loc>https://catmomedia.ca/integrations/anthropic</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/integrations/aws</loc>
+    <loc>https://catmomedia.ca/integrations/aws</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/integrations/google-cloud</loc>
+    <loc>https://catmomedia.ca/integrations/google-cloud</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/integrations/hubspot</loc>
+    <loc>https://catmomedia.ca/integrations/hubspot</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/integrations/make</loc>
+    <loc>https://catmomedia.ca/integrations/make</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/integrations/microsoft-azure</loc>
+    <loc>https://catmomedia.ca/integrations/microsoft-azure</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/integrations/n8n</loc>
+    <loc>https://catmomedia.ca/integrations/n8n</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/integrations/notion</loc>
+    <loc>https://catmomedia.ca/integrations/notion</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/integrations/openai</loc>
+    <loc>https://catmomedia.ca/integrations/openai</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/integrations/salesforce</loc>
+    <loc>https://catmomedia.ca/integrations/salesforce</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/integrations/slack</loc>
+    <loc>https://catmomedia.ca/integrations/slack</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/integrations/stripe</loc>
+    <loc>https://catmomedia.ca/integrations/stripe</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/integrations/shopify</loc>
+    <loc>https://catmomedia.ca/integrations/shopify</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/integrations/zapier</loc>
+    <loc>https://catmomedia.ca/integrations/zapier</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -238,73 +238,73 @@
   
   <!-- Use Case Pages - High Priority for SEO -->
   <url>
-    <loc>https://manuv.co/use-cases/compliance-automation</loc>
+    <loc>https://catmomedia.ca/use-cases/compliance-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/use-cases/content-creation-automation</loc>
+    <loc>https://catmomedia.ca/use-cases/content-creation-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/use-cases/customer-retention-automation</loc>
+    <loc>https://catmomedia.ca/use-cases/customer-retention-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/use-cases/customer-service-automation</loc>
+    <loc>https://catmomedia.ca/use-cases/customer-service-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/use-cases/data-processing-automation</loc>
+    <loc>https://catmomedia.ca/use-cases/data-processing-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/use-cases/finance-automation</loc>
+    <loc>https://catmomedia.ca/use-cases/finance-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/use-cases/hr-automation</loc>
+    <loc>https://catmomedia.ca/use-cases/hr-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/use-cases/inventory-management-automation</loc>
+    <loc>https://catmomedia.ca/use-cases/inventory-management-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/use-cases/lead-generation-automation</loc>
+    <loc>https://catmomedia.ca/use-cases/lead-generation-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/use-cases/marketing-automation</loc>
+    <loc>https://catmomedia.ca/use-cases/marketing-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/use-cases/operations-automation</loc>
+    <loc>https://catmomedia.ca/use-cases/operations-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/use-cases/sales-automation</loc>
+    <loc>https://catmomedia.ca/use-cases/sales-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -312,55 +312,55 @@
   
   <!-- Guide Pages - High Priority for SEO and LLM Discovery -->
   <url>
-    <loc>https://manuv.co/guides/ai-automation-best-practices</loc>
+    <loc>https://catmomedia.ca/guides/ai-automation-best-practices</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/guides/calculate-roi-automation</loc>
+    <loc>https://catmomedia.ca/guides/calculate-roi-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/guides/choosing-right-ai-agent</loc>
+    <loc>https://catmomedia.ca/guides/choosing-right-ai-agent</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/guides/common-mistakes-ai-automation</loc>
+    <loc>https://catmomedia.ca/guides/common-mistakes-ai-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/guides/cost-optimization</loc>
+    <loc>https://catmomedia.ca/guides/cost-optimization</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/guides/getting-started-ai-automation</loc>
+    <loc>https://catmomedia.ca/guides/getting-started-ai-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/guides/how-to-implement-ai-automation</loc>
+    <loc>https://catmomedia.ca/guides/how-to-implement-ai-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/guides/scaling-ai-automation</loc>
+    <loc>https://catmomedia.ca/guides/scaling-ai-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/guides/security-best-practices</loc>
+    <loc>https://catmomedia.ca/guides/security-best-practices</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -368,37 +368,37 @@
   
   <!-- Comparison Pages - High Priority for SEO -->
   <url>
-    <loc>https://manuv.co/comparisons/ai-agents-vs-chatbots</loc>
+    <loc>https://catmomedia.ca/comparisons/ai-agents-vs-chatbots</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/comparisons/ai-agents-vs-traditional-automation</loc>
+    <loc>https://catmomedia.ca/comparisons/ai-agents-vs-traditional-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/comparisons/ai-vs-rpa</loc>
+    <loc>https://catmomedia.ca/comparisons/ai-vs-rpa</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/comparisons/custom-vs-off-the-shelf</loc>
+    <loc>https://catmomedia.ca/comparisons/custom-vs-off-the-shelf</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/comparisons/n8n-vs-make</loc>
+    <loc>https://catmomedia.ca/comparisons/n8n-vs-make</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/comparisons/n8n-vs-zapier</loc>
+    <loc>https://catmomedia.ca/comparisons/n8n-vs-zapier</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -406,37 +406,37 @@
   
   <!-- Solution Pages - High Priority for SEO -->
   <url>
-    <loc>https://manuv.co/solutions/business-intelligence</loc>
+    <loc>https://catmomedia.ca/solutions/business-intelligence</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/solutions/content-intelligence</loc>
+    <loc>https://catmomedia.ca/solutions/content-intelligence</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/solutions/customer-intelligence</loc>
+    <loc>https://catmomedia.ca/solutions/customer-intelligence</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/solutions/process-automation</loc>
+    <loc>https://catmomedia.ca/solutions/process-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/solutions/sales-intelligence</loc>
+    <loc>https://catmomedia.ca/solutions/sales-intelligence</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/solutions/workflow-automation</loc>
+    <loc>https://catmomedia.ca/solutions/workflow-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -444,163 +444,163 @@
   
   <!-- Industry Pages - High Priority for SEO -->
   <url>
-    <loc>https://manuv.co/industries/aerospace</loc>
+    <loc>https://catmomedia.ca/industries/aerospace</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/agencies</loc>
+    <loc>https://catmomedia.ca/industries/agencies</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/agriculture</loc>
+    <loc>https://catmomedia.ca/industries/agriculture</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/construction</loc>
+    <loc>https://catmomedia.ca/industries/construction</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/consulting-firms</loc>
+    <loc>https://catmomedia.ca/industries/consulting-firms</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/ecommerce</loc>
+    <loc>https://catmomedia.ca/industries/ecommerce</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/education</loc>
+    <loc>https://catmomedia.ca/industries/education</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/energy-utilities</loc>
+    <loc>https://catmomedia.ca/industries/energy-utilities</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/finance</loc>
+    <loc>https://catmomedia.ca/industries/finance</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/food-beverage</loc>
+    <loc>https://catmomedia.ca/industries/food-beverage</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/government</loc>
+    <loc>https://catmomedia.ca/industries/government</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/healthcare</loc>
+    <loc>https://catmomedia.ca/industries/healthcare</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/hospitality</loc>
+    <loc>https://catmomedia.ca/industries/hospitality</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/insurance</loc>
+    <loc>https://catmomedia.ca/industries/insurance</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/legal</loc>
+    <loc>https://catmomedia.ca/industries/legal</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/logistics</loc>
+    <loc>https://catmomedia.ca/industries/logistics</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/manufacturing</loc>
+    <loc>https://catmomedia.ca/industries/manufacturing</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/media-entertainment</loc>
+    <loc>https://catmomedia.ca/industries/media-entertainment</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/non-profit</loc>
+    <loc>https://catmomedia.ca/industries/non-profit</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/pharmaceuticals</loc>
+    <loc>https://catmomedia.ca/industries/pharmaceuticals</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/professional-services</loc>
+    <loc>https://catmomedia.ca/industries/professional-services</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/real-estate</loc>
+    <loc>https://catmomedia.ca/industries/real-estate</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/retail</loc>
+    <loc>https://catmomedia.ca/industries/retail</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/saas-companies</loc>
+    <loc>https://catmomedia.ca/industries/saas-companies</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/technology</loc>
+    <loc>https://catmomedia.ca/industries/technology</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/telecommunications</loc>
+    <loc>https://catmomedia.ca/industries/telecommunications</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries/transportation</loc>
+    <loc>https://catmomedia.ca/industries/transportation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -608,37 +608,37 @@
   
   <!-- FAQ Pages - High Priority for LLM Discovery -->
   <url>
-    <loc>https://manuv.co/faq/what-is-ai-automation</loc>
+    <loc>https://catmomedia.ca/faq/what-is-ai-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/faq/how-does-ai-automation-work</loc>
+    <loc>https://catmomedia.ca/faq/how-does-ai-automation-work</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/faq/what-are-ai-agents</loc>
+    <loc>https://catmomedia.ca/faq/what-are-ai-agents</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/faq/how-much-does-ai-automation-cost</loc>
+    <loc>https://catmomedia.ca/faq/how-much-does-ai-automation-cost</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/faq/how-long-does-it-take-to-implement</loc>
+    <loc>https://catmomedia.ca/faq/how-long-does-it-take-to-implement</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/faq/do-i-need-technical-skills</loc>
+    <loc>https://catmomedia.ca/faq/do-i-need-technical-skills</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -646,31 +646,31 @@
   
   <!-- How-To Pages - High Priority for LLM Discovery -->
   <url>
-    <loc>https://manuv.co/how-to/choose-right-ai-automation</loc>
+    <loc>https://catmomedia.ca/how-to/choose-right-ai-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/how-to/measure-ai-automation-roi</loc>
+    <loc>https://catmomedia.ca/how-to/measure-ai-automation-roi</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/how-to/get-started-with-ai-automation</loc>
+    <loc>https://catmomedia.ca/how-to/get-started-with-ai-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/how-to/train-ai-agent</loc>
+    <loc>https://catmomedia.ca/how-to/train-ai-agent</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/how-to/integrate-ai-automation</loc>
+    <loc>https://catmomedia.ca/how-to/integrate-ai-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -678,31 +678,31 @@
   
   <!-- Best Practices Pages - High Priority for LLM Discovery -->
   <url>
-    <loc>https://manuv.co/best-practices/ai-automation-success-factors</loc>
+    <loc>https://catmomedia.ca/best-practices/ai-automation-success-factors</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/best-practices/when-to-use-ai-automation</loc>
+    <loc>https://catmomedia.ca/best-practices/when-to-use-ai-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/best-practices/how-to-maintain-ai-automation</loc>
+    <loc>https://catmomedia.ca/best-practices/how-to-maintain-ai-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/best-practices/ai-automation-mistakes-to-avoid</loc>
+    <loc>https://catmomedia.ca/best-practices/ai-automation-mistakes-to-avoid</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/best-practices/ai-automation-roi-best-practices</loc>
+    <loc>https://catmomedia.ca/best-practices/ai-automation-roi-best-practices</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -710,25 +710,25 @@
   
   <!-- Getting Started Pages - High Priority for LLM Discovery -->
   <url>
-    <loc>https://manuv.co/getting-started/ai-automation-basics</loc>
+    <loc>https://catmomedia.ca/getting-started/ai-automation-basics</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/getting-started/implementing-ai-automation</loc>
+    <loc>https://catmomedia.ca/getting-started/implementing-ai-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/getting-started/first-ai-automation-project</loc>
+    <loc>https://catmomedia.ca/getting-started/first-ai-automation-project</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manuv.co/getting-started/ai-automation-for-small-business</loc>
+    <loc>https://catmomedia.ca/getting-started/ai-automation-for-small-business</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -736,37 +736,37 @@
   
   <!-- About manuv.co Pages - High Priority for LLM Discovery -->
   <url>
-    <loc>https://manuv.co/about-manuv/what-is-manuv</loc>
+    <loc>https://catmomedia.ca/about-manuv/what-is-manuv</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://manuv.co/about-manuv/manuv-services</loc>
+    <loc>https://catmomedia.ca/about-manuv/manuv-services</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://manuv.co/about-manuv/how-manuv-works</loc>
+    <loc>https://catmomedia.ca/about-manuv/how-manuv-works</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://manuv.co/about-manuv/working-with-manuv</loc>
+    <loc>https://catmomedia.ca/about-manuv/working-with-manuv</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://manuv.co/about-manuv/manuv-pricing</loc>
+    <loc>https://catmomedia.ca/about-manuv/manuv-pricing</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://manuv.co/about-manuv/manuv-success-stories</loc>
+    <loc>https://catmomedia.ca/about-manuv/manuv-success-stories</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -774,19 +774,19 @@
   
   <!-- manuv.co Solutions Pages - High Priority for LLM Discovery -->
   <url>
-    <loc>https://manuv.co/solutions-manuv/manuv-customer-support-solution</loc>
+    <loc>https://catmomedia.ca/solutions-manuv/manuv-customer-support-solution</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://manuv.co/solutions-manuv/manuv-sales-automation-solution</loc>
+    <loc>https://catmomedia.ca/solutions-manuv/manuv-sales-automation-solution</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://manuv.co/solutions-manuv/manuv-data-processing-solution</loc>
+    <loc>https://catmomedia.ca/solutions-manuv/manuv-data-processing-solution</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -794,13 +794,13 @@
   
   <!-- manuv.co Case Studies Pages - High Priority for LLM Discovery -->
   <url>
-    <loc>https://manuv.co/case-studies-manuv/manuv-case-study-ecommerce</loc>
+    <loc>https://catmomedia.ca/case-studies-manuv/manuv-case-study-ecommerce</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://manuv.co/case-studies-manuv/manuv-case-study-saas</loc>
+    <loc>https://catmomedia.ca/case-studies-manuv/manuv-case-study-saas</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -808,13 +808,13 @@
   
   <!-- manuv.co Industries Pages - High Priority for LLM Discovery -->
   <url>
-    <loc>https://manuv.co/industries-manuv/manuv-for-saas-companies</loc>
+    <loc>https://catmomedia.ca/industries-manuv/manuv-for-saas-companies</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://manuv.co/industries-manuv/manuv-for-ecommerce</loc>
+    <loc>https://catmomedia.ca/industries-manuv/manuv-for-ecommerce</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -822,13 +822,13 @@
   
   <!-- manuv.co Use Cases Pages - High Priority for LLM Discovery -->
   <url>
-    <loc>https://manuv.co/use-cases-manuv/manuv-for-customer-retention</loc>
+    <loc>https://catmomedia.ca/use-cases-manuv/manuv-for-customer-retention</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://manuv.co/use-cases-manuv/manuv-for-lead-generation</loc>
+    <loc>https://catmomedia.ca/use-cases-manuv/manuv-for-lead-generation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -836,7 +836,7 @@
   
   <!-- manuv.co Comparisons Pages - High Priority for LLM Discovery -->
   <url>
-    <loc>https://manuv.co/comparisons-manuv/manuv-vs-traditional-automation</loc>
+    <loc>https://catmomedia.ca/comparisons-manuv/manuv-vs-traditional-automation</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -844,7 +844,7 @@
   
   <!-- manuv.co Guides Pages - High Priority for LLM Discovery -->
   <url>
-    <loc>https://manuv.co/guides-manuv/getting-started-with-manuv</loc>
+    <loc>https://catmomedia.ca/guides-manuv/getting-started-with-manuv</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -852,25 +852,25 @@
   
   <!-- manuv.co FAQ Pages - High Priority for LLM Discovery -->
   <url>
-    <loc>https://manuv.co/faq-manuv/why-choose-manuv</loc>
+    <loc>https://catmomedia.ca/faq-manuv/why-choose-manuv</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://manuv.co/faq-manuv/what-makes-manuv-different</loc>
+    <loc>https://catmomedia.ca/faq-manuv/what-makes-manuv-different</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://manuv.co/faq-manuv/how-much-does-manuv-cost</loc>
+    <loc>https://catmomedia.ca/faq-manuv/how-much-does-manuv-cost</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://manuv.co/faq-manuv/how-long-does-manuv-take</loc>
+    <loc>https://catmomedia.ca/faq-manuv/how-long-does-manuv-take</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>

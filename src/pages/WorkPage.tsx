@@ -7,41 +7,23 @@ import { BackgroundBeamsWithCollision } from '../components/ui/background-beams-
 
 const flagshipProducts = [
     {
-        name: 'ORPHIC',
-        description: 'AI content intelligence engine that transforms all past content into a structured knowledge base and generates new content automatically in the same voice.',
+        name: 'GLOBAL ADS ENGINE',
+        description: 'Sophisticated advertising architecture combining Performance Max and Search hybrid models to scale eCommerce and service businesses.',
         metrics: [
-            '95% faster content creation',
-            '10× content output volume',
-            '4.8/5 quality rating'
+            '3000% Max ROAS achieved',
+            '94% lower cost per conversion',
+            '10× growth in organic views'
         ],
         features: [
-            'Ingests content from Instagram, YouTube, PDFs, transcripts, blogs',
-            'Extracts, cleans, and embeds text into vector database',
-            'Learns voice patterns: tone, style, pacing, vocabulary, structure',
-            'Generates social posts, scripts, newsletters, long-form, emails',
-            'Scores content for clarity and voice consistency',
-            'n8n pipeline handles ingestion, batch generation, scheduling',
-            'Includes dashboards and editor UI'
+            'Full-funnel Google Ads orchestration',
+            'Video creative strategy (Shorts vs. Landscape)',
+            'Dynamic retargeting engines',
+            'Compliance-focused campaign structures',
+            'Real-time performance analytics dashboards',
+            'AI-powered audience segmentation',
+            'Automated budget optimization'
         ],
-        link: 'https://orphic.so'
-    },
-    {
-        name: 'MILNA',
-        description: 'AI website agents that automate sales and support conversations directly on the website, trained on your content, docs, and data.',
-        metrics: [
-            '70-90% ticket resolution',
-            '24/7 availability',
-            'Real-time CRM sync'
-        ],
-        features: [
-            'Sales Agent: answers questions, recommends products, qualifies leads, books calls, pushes to CRM',
-            'Support Agent: resolves queries, pulls account data via API, manages tickets, escalates when needed',
-            'Uses real-time retrieval from website content and documentation',
-            'Runs on custom workflow engine (n8n + custom logic nodes)',
-            'Includes monitoring, logs, analytics, fallback behaviors',
-            'Trained on KB articles, documents, FAQs, pricing'
-        ],
-        link: 'https://milna.io'
+        link: '/case-studies'
     }
 ];
 
@@ -113,25 +95,25 @@ const automationSystems = [
 
 const caseStudies = [
     {
-        name: 'Orphic',
-        metrics: ['95% faster content creation', '10× output volume'],
-        description: 'AI content intelligence engine with vector DB, voice learning, and automated generation pipeline',
-        link: '/case-studies#orphic'
+        name: 'Luxury Fashion Retailer',
+        metrics: ['3000%+ Peak ROAS', '10× YouTube Growth'],
+        description: 'Scaling high-end eCommerce through strategic Performance Max and video creative orchestration',
+        link: '/case-studies/luxury-fashion-retailer'
     },
     {
-        name: 'Milna',
-        metrics: ['70-90% automation rate', '24/7 availability'],
-        description: 'AI sales and support agents with real-time data retrieval, CRM integration, and intelligent escalation',
-        link: '/case-studies#milna'
+        name: 'Cleanfiniti',
+        metrics: ['94% Lower Cost/Conv', '300% Higher Conversions'],
+        description: 'Global Google Ads strategy and budget optimization for residential services',
+        link: '/case-studies/cleanfiniti-google-ads'
     }
 ];
 
 const processSteps = [
-    { name: 'Discover', description: 'Map systems, tools, tasks, bottlenecks' },
-    { name: 'Architect', description: 'Design a custom AI + automation solution' },
-    { name: 'Build', description: 'Develop agents, integrations, and workflows' },
-    { name: 'Deploy', description: 'Test, monitor, refine' },
-    { name: 'Scale', description: 'Expand agents, reduce cost, improve speed' }
+    { name: 'Discovery', description: 'Map brand position, business goals, and ideal customers' },
+    { name: 'Targeting', description: 'Create user avatars and map the entire customer journey' },
+    { name: 'Attribution', description: 'Build tracking architecture to measure every touchpoint' },
+    { name: 'Amplification', description: 'Develop and execute comprehensive advertising strategies' },
+    { name: 'Transparency', description: 'Real-time ROI tracking via live performance dashboards' }
 ];
 
 const trustFactors = [
@@ -147,22 +129,26 @@ export const WorkPage = () => {
     return (
         <div className="relative min-h-screen bg-black text-white">
             <SEO
-                title="Work | AI Systems & Automation | manuv.co"
-                description="Real AI systems. Real business outcomes. See our flagship products, AI agents, and automation systems built for scale."
-                keywords="AI systems, automation, AI agents, case studies"
-                canonical="https://manuv.co/work"
-                ogUrl="https://manuv.co/work"
+                title="Work | Digital Advertising & Performance Marketing | Catmo Media"
+                description="Measurable results. Data-driven growth. See how Catmo Media scales businesses through high-impact digital advertising and strategic optimization."
+                keywords="digital advertising, performance marketing, Google ads, conversion optimization, Catmo Media work"
+                canonical="https://catmomedia.ca/work"
+                ogUrl="https://catmomedia.ca/work"
             />
 
             {/* Hero Section with Neural Network Background */}
             <Hero
-                title="Real AI Systems. Real Business Outcomes."
+                title={
+                    <>
+                        Proven <span className="italic font-normal text-primary">strategies</span>. Measurable <span className="italic font-normal text-primary underline decoration-primary/30 underline-offset-8">growth</span>.
+                    </>
+                }
                 description="Here's what we've built — from full AI platforms to autonomous agents to deeply integrated automation systems."
                 badgeText="Our Portfolio"
                 badgeLabel="Work"
                 ctaButtons={[
                     { text: "Play a Game", href: "/game", primary: true },
-                    { text: "Book a Call", href: "/contact" }
+                    { text: "Book a Meeting", href: "https://calendar.app.google/QdxMrAa98Eq9Q7aU7", isExternal: true }
                 ]}
                 microDetails={["Flagship Products", "AI Agents", "Enterprise Automation"]}
                 cardContent={<BackgroundBeamsWithCollision />}
@@ -178,7 +164,7 @@ export const WorkPage = () => {
                         <h2 className="text-4xl md:text-5xl font-extralight tracking-tight mb-4 text-white">
                             Flagship Products
                         </h2>
-                        <p className="text-lg text-white/50 font-light">Full-scale SaaS products fully developed by our studio</p>
+                        <p className="text-lg text-white/50 font-light">Custom advertising frameworks fully engineered by Catmo Media</p>
                     </div>
 
                     <div className="space-y-12">
@@ -189,7 +175,7 @@ export const WorkPage = () => {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ delay: index * 0.1 }}
-                                className="rounded-3xl border border-white/10 bg-white/[0.02] p-8 md:p-12"
+                                className="rounded-3xl border border-white/10 bg-white/[0.02] p-6 md:p-12"
                             >
                                 <div className="flex items-start justify-between mb-6">
                                     <div>
@@ -205,10 +191,10 @@ export const WorkPage = () => {
                                     </div>
                                 </div>
 
-                                <div className="grid md:grid-cols-3 gap-6 my-8">
+                                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 my-8">
                                     {product.metrics.map((metric, i) => (
-                                        <div key={i} className="rounded-2xl border border-white/5 bg-white/[0.01] p-4">
-                                            <span className="text-2xl font-light text-white">{metric}</span>
+                                        <div key={i} className="rounded-2xl border border-primary/20 bg-primary/5 p-4 group/metric hover:border-primary/40 transition-all">
+                                            <span className="text-2xl font-bold bg-gradient-to-r from-white to-white/70 bg-clip-text text-transparent group-hover/metric:from-primary group-hover/metric:to-secondary transition-all">{metric}</span>
                                         </div>
                                     ))}
                                 </div>
@@ -275,10 +261,10 @@ export const WorkPage = () => {
                                 <Link
                                     to={agent.name === 'AI Customer Support Agent' ? '/agents/ai-customer-support-agent' :
                                         agent.name === 'AI SDR / Outbound Agent' ? '/agents/ai-sdr-agent' :
-                                        agent.name === 'AI Research Agent' ? '/agents/ai-research-agent' :
-                                        agent.name === 'AI Content Agent' ? '/agents/ai-content-agent' :
-                                        agent.name === 'AI Operations Agent' ? '/agents/ai-operations-agent' :
-                                        '/agents/ai-data-agent'}
+                                            agent.name === 'AI Research Agent' ? '/agents/ai-research-agent' :
+                                                agent.name === 'AI Content Agent' ? '/agents/ai-content-agent' :
+                                                    agent.name === 'AI Operations Agent' ? '/agents/ai-operations-agent' :
+                                                        '/agents/ai-data-agent'}
                                     className="text-xs font-light text-primary hover:text-primary/80 transition-colors flex items-center gap-2"
                                 >
                                     See how it works
@@ -325,10 +311,10 @@ export const WorkPage = () => {
                                 <Link
                                     to={system.title === 'Lead Qualification & Routing' ? '/automations/lead-qualification-routing' :
                                         system.title === 'CRM Enrichment Engine' ? '/automations/crm-enrichment-engine' :
-                                        system.title === 'Inbox → CRM Ingestion' ? '/automations/inbox-crm-ingestion' :
-                                        system.title === 'Client Onboarding Flow' ? '/automations/client-onboarding-flow' :
-                                        system.title === 'Automated Reporting System' ? '/automations/automated-reporting-system' :
-                                        '/automations/document-processing-pipeline'}
+                                            system.title === 'Inbox → CRM Ingestion' ? '/automations/inbox-crm-ingestion' :
+                                                system.title === 'Client Onboarding Flow' ? '/automations/client-onboarding-flow' :
+                                                    system.title === 'Automated Reporting System' ? '/automations/automated-reporting-system' :
+                                                        '/automations/document-processing-pipeline'}
                                     className="text-xs font-light text-primary hover:text-primary/80 transition-colors flex items-center gap-2"
                                 >
                                     Learn more →
@@ -469,7 +455,7 @@ export const WorkPage = () => {
                     viewport={{ once: true }}
                     className="max-w-7xl mx-auto"
                 >
-                    <div className="rounded-3xl border border-primary/20 bg-white/[0.02] p-12 md:p-16 text-center">
+                    <div className="rounded-3xl border border-primary/20 bg-white/[0.02] p-8 md:p-16 text-center">
                         <h2 className="text-4xl md:text-5xl font-extralight tracking-tight text-white mb-4">
                             Ready to build?
                         </h2>
@@ -480,13 +466,15 @@ export const WorkPage = () => {
                             If you want a bespoke AI system built for your business — let's talk.
                         </p>
 
-                        <Link
-                            to="/contact"
-                            className="inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/10 px-8 py-4 text-sm font-light tracking-tight text-white backdrop-blur-sm transition-all duration-300 hover:bg-white/20 hover:scale-105"
+                        <a
+                            href="https://calendar.app.google/QdxMrAa98Eq9Q7aU7"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center w-full sm:w-auto gap-3 rounded-full border border-white/10 bg-white/10 px-8 py-4 text-sm font-light tracking-tight text-white backdrop-blur-sm transition-all duration-300 hover:bg-white/20 hover:scale-105"
                         >
-                            Book an Intro Call
+                            Book a Meeting
                             <ArrowRight className="w-4 h-4" />
-                        </Link>
+                        </a>
                     </div>
                 </motion.div>
             </section>

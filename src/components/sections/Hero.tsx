@@ -1,7 +1,8 @@
 import { useRef, useEffect, Suspense, useState } from "react";
 import * as THREE from "three";
 import { Link } from "react-router-dom";
-import { AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, useMotionValue, useSpring, useMotionTemplate } from "framer-motion";
+import { ArrowRight, Play, Sparkles } from 'lucide-react';
 import { HeroChatBar } from "../ui/hero-chat-bar";
 import { useChat } from "../../contexts/ChatContext";
 
@@ -174,6 +175,11 @@ export const Hero = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const heroRef = useRef<HTMLElement>(null);
 
+    const mouseX = useMotionValue(0);
+    const mouseY = useMotionValue(0);
+    const springX = useSpring(mouseX, { stiffness: 50, damping: 20 });
+    const springY = useSpring(mouseY, { stiffness: 50, damping: 20 });
+
     useEffect(() => {
         const handleScroll = () => {
             if (heroRef.current) {
@@ -183,6 +189,11 @@ export const Hero = () => {
                 const scrollThreshold = heroHeight * 0.8;
                 setIsScrolled(rect.bottom < (window.innerHeight - scrollThreshold));
             }
+        };
+
+        const handleMouseMove = (e: MouseEvent) => {
+            mouseX.set(e.clientX);
+            mouseY.set(e.clientY);
         };
 
         // Use requestAnimationFrame for smooth scroll tracking
@@ -195,20 +206,36 @@ export const Hero = () => {
         };
 
         window.addEventListener('scroll', onScroll, { passive: true });
+        window.addEventListener('mousemove', handleMouseMove);
         handleScroll(); // Check initial state
 
         return () => {
             window.removeEventListener('scroll', onScroll);
+            window.removeEventListener('mousemove', handleMouseMove);
             if (rafId) {
                 cancelAnimationFrame(rafId);
             }
         };
     }, []);
-    
+
     return (
-        <section ref={heroRef} className="relative min-h-screen w-full bg-background overflow-hidden pt-12 lg:pt-16">
+        <section ref={heroRef} className="relative min-h-screen w-full bg-background overflow-hidden pt-12 lg:pt-16 group">
+            {/* Interactive Mouse Glow Background */}
+            <motion.div
+                className="pointer-events-none absolute inset-0 z-0 opacity-0 group-hover:opacity-40 transition-opacity duration-700"
+                style={{
+                    background: useMotionTemplate`
+                        radial-gradient(
+                            800px circle at ${springX}px ${springY}px,
+                            rgba(65, 72, 255, 0.15),
+                            transparent 80%
+                        )
+                    `,
+                }}
+            />
+
             {/* Split Layout Container */}
-            <div className="flex flex-col lg:flex-row min-h-screen">
+            <div className="flex flex-col lg:flex-row min-h-screen relative z-10">
 
                 {/* Left Side - 3D Animation */}
                 <div className="relative w-full lg:w-1/2 h-[50vh] lg:h-screen">
@@ -228,25 +255,29 @@ export const Hero = () => {
                 </div>
 
                 {/* Right Side - Content */}
-                <div className="relative w-full lg:w-1/2 flex items-center justify-center px-8 lg:px-16 py-16 lg:py-0">
+                <div className="relative w-full lg:w-1/2 flex items-center justify-center px-6 sm:px-8 lg:px-16 py-16 lg:py-0">
                     <div className="max-w-xl">
                         {/* Eyebrow */}
-                        <p className="relative inline-block text-primary text-sm font-mono tracking-widest uppercase mb-6 px-4 py-2 rounded-lg bg-primary/10 border border-primary/30 backdrop-blur-sm shadow-[0_0_20px_rgba(59,130,246,0.3)]">
-                            <span className="relative z-10">Custom AI Solutions</span>
-                            <span className="absolute inset-0 bg-gradient-to-r from-primary/20 via-primary/30 to-primary/20 rounded-lg blur-sm"></span>
-                        </p>
+                        <div className="flex items-center gap-4 mb-8">
+                            <div className="h-10 w-auto flex items-center">
+                                <span className="text-white text-3xl font-black tracking-tighter italic transform -skew-x-12 drop-shadow-[0_0_8px_rgba(65,72,255,0.8)]">CATMO</span>
+                                <div className="ml-6 px-3 py-1 bg-white/5 border border-white/10 rounded-full text-[10px] text-white/80 font-mono uppercase tracking-widest backdrop-blur-sm">
+                                    Digital Advertising
+                                </div>
+                            </div>
+                        </div>
 
                         {/* Main Headline */}
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground tracking-tight mb-6 leading-[1.1]">
-                            Free Your Team to Do{' '}
-                            <span className="bg-gradient-to-r from-primary via-pink-400 to-primary bg-clip-text text-transparent">
-                                Their Best Work
+                        <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-foreground tracking-tighter mb-8 leading-[1.05]">
+                            Amplifying <span className="italic font-normal text-white/90">purpose-driven</span>{' '}
+                            <span className="bg-gradient-to-r from-primary via-[#ff0088] to-accent bg-clip-text text-transparent italic underline decoration-primary/20 underline-offset-[12px] pr-2">
+                                businesses
                             </span>
                         </h1>
 
                         {/* Subheadline */}
                         <p className="text-lg text-muted-foreground max-w-lg mb-10 leading-relaxed">
-                            Custom AI agents that handle data entry and repetitive tasks—so your team can focus on the strategic, high-impact work they actually love.
+                            We turn digital marketing into measurable growth. Data-driven campaigns for regulated industries where traditional marketing approaches often fall short.
                         </p>
 
                         {/* Chat Bar - Only show when not scrolled */}
@@ -263,11 +294,16 @@ export const Hero = () => {
 
                         {/* CTA Buttons */}
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <Link to="/assessment" className="px-8 py-4 bg-primary hover:bg-primary/90 text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(255,0,136,0.4)] text-center">
-                                Take Free Assessment
-                            </Link>
-                            <Link to="/work" className="px-8 py-4 bg-white/10 hover:bg-white/20 text-foreground font-semibold rounded-full border border-white/20 transition-all duration-300 hover:scale-105 text-center">
-                                See Our Work
+                            <a
+                                href="https://calendar.app.google/QdxMrAa98Eq9Q7aU7"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-full sm:w-auto px-8 py-4 bg-primary hover:bg-primary/90 text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(255,0,136,0.4)] text-center"
+                            >
+                                Book a Meeting
+                            </a>
+                            <Link to="/case-studies" className="w-full sm:w-auto px-8 py-4 bg-white/10 hover:bg-white/20 text-foreground font-semibold rounded-full border border-white/20 transition-all duration-300 hover:scale-105 text-center">
+                                View Case Studies
                             </Link>
                         </div>
 

@@ -4,9 +4,9 @@ import { Home, Briefcase, FolderOpen, Users, Phone } from 'lucide-react';
 const navItems = [
     { name: 'Home', url: '/', icon: Home },
     { name: 'Services', url: '/services', icon: Briefcase },
-    { name: 'Work', url: '/work', icon: FolderOpen, matchPaths: ['/game'] },
+    { name: 'Case Studies', url: '/case-studies', icon: FolderOpen },
     { name: 'About', url: '/about', icon: Users },
-    { name: 'Book a Call', url: '/contact', icon: Phone, isButton: true },
+    { name: 'Book a Meeting', url: 'https://calendar.app.google/QdxMrAa98Eq9Q7aU7', icon: Phone, isButton: true, isExternal: true },
 ];
 
 export const Navbar = () => {

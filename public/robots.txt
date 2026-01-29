@@ -1,4 +1,4 @@
-# robots.txt for manuv.co
+# robots.txt for catmomedia.ca
 # Optimized for search engine crawling and LLM discovery
 
 User-agent: *
@@ -62,7 +62,7 @@ Disallow: /meetingbooked
 Disallow: /game
 
 # Sitemap location
-Sitemap: https://manuv.co/sitemap.xml
+Sitemap: https://catmomedia.ca/sitemap.xml
 
 # Crawl-delay (optional, can be removed if not needed)
 Crawl-delay: 0.5

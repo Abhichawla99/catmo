@@ -136,13 +136,13 @@ const _SingularityWaveShader = () => {
 
     // 3) Material, Geometry, Mesh
     const uniforms = {
-      u_time:       { value: 0 },
+      u_time: { value: 0 },
       u_resolution: { value: new THREE.Vector2() }
     };
     const material = new THREE.ShaderMaterial({ vertexShader, fragmentShader, uniforms });
     materialRef.current = material; // Store material in ref
     const geometry = new THREE.PlaneGeometry(2, 2);
-    const mesh     = new THREE.Mesh(geometry, material);
+    const mesh = new THREE.Mesh(geometry, material);
     scene.add(mesh);
 
     // 4) Resize Handler
@@ -195,11 +195,11 @@ const _SingularityWaveShader = () => {
 
 // ===================== HERO =====================
 interface HeroProps {
-  title: string;
+  title: ReactNode;
   description: string;
   badgeText?: string;
   badgeLabel?: string;
-  ctaButtons?: Array<{ text: string; href: string; primary?: boolean }>;
+  ctaButtons?: Array<{ text: string; href: string; primary?: boolean; isExternal?: boolean }>;
   microDetails?: Array<string>;
   cardContent?: ReactNode;
 }
@@ -297,7 +297,7 @@ export default function Hero({
     <section ref={sectionRef} className="relative h-screen w-screen overflow-hidden bg-black">
       {/* <SingularityWaveShader /> */}
 
-      <div className="relative z-10 mx-auto max-w-7xl px-6 pb-24 pt-36 sm:pt-44 md:px-10 lg:px-16">
+      <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 pb-24 pt-36 sm:pt-44 md:px-10 lg:px-16">
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left Column - Content */}
           <div className="flex flex-col items-start gap-6 sm:gap-8">
@@ -315,20 +315,37 @@ export default function Hero({
               {description}
             </p>
 
-            <div ref={ctaRef} className="flex flex-wrap items-center gap-3 pt-2">
-              {ctaButtons.map((button, index) => (
-                <Link
-                  key={index}
-                  to={button.href}
-                  className={`rounded-2xl border border-white/10 px-5 py-3 text-sm font-light tracking-tight transition-colors focus:outline-none focus:ring-2 focus:ring-white/30 duration-300 ${
-                    button.primary
-                      ? "bg-white/10 text-white backdrop-blur-sm hover:bg-white/20"
-                      : "text-white/80 hover:bg-white/5"
-                  }`}
-                >
-                  {button.text}
-                </Link>
-              ))}
+            <div ref={ctaRef} className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-2 w-full sm:w-auto">
+              {ctaButtons.map((button, index) => {
+                const buttonClasses = `rounded-2xl border border-white/10 px-5 py-3 text-sm font-light tracking-tight transition-colors focus:outline-none focus:ring-2 focus:ring-white/30 duration-300 text-center w-full sm:w-auto ${button.primary
+                  ? "bg-white/10 text-white backdrop-blur-sm hover:bg-white/20"
+                  : "text-white/80 hover:bg-white/5"
+                  }`;
+
+                if (button.isExternal) {
+                  return (
+                    <a
+                      key={index}
+                      href={button.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={buttonClasses}
+                    >
+                      {button.text}
+                    </a>
+                  );
+                }
+
+                return (
+                  <Link
+                    key={index}
+                    to={button.href}
+                    className={buttonClasses}
+                  >
+                    {button.text}
+                  </Link>
+                );
+              })}
             </div>
 
             <ul ref={microRef} className="mt-8 flex flex-wrap gap-6 text-xs font-extralight tracking-tight text-white/60">

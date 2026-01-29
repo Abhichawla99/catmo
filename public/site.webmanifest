@@ -1,16 +1,16 @@
 {
-  "name": "manuv.co - AI Automation Studio",
-  "short_name": "manuv.co",
-  "description": "Custom AI agents and automation systems for businesses",
+  "name": "Catmo Media - Digital Advertising That Drives Growth",
+  "short_name": "Catmo Media",
+  "description": "Digital advertising and performance marketing for purpose-driven businesses",
   "icons": [
     {
-      "src": "/logos/manuv logo.png",
+      "src": "/favicon.svg",
       "sizes": "any",
-      "type": "image/png",
+      "type": "image/svg+xml",
       "purpose": "any maskable"
     }
   ],
-  "theme_color": "#00ff88",
+  "theme_color": "#1E22AA",
   "background_color": "#000000",
   "display": "standalone",
   "start_url": "/"

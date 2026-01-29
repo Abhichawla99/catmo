@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
-import { Calendar } from 'lucide-react';
-import { useEffect } from 'react';
 import { SEO } from '../components/seo/SEO';
+import { Calendar, Linkedin } from 'lucide-react';
 
 const fadeInUp = {
     initial: { opacity: 0, y: 30 },
@@ -11,40 +10,24 @@ const fadeInUp = {
 };
 
 export const ContactPage = () => {
-    useEffect(() => {
-        // Load TidyCal embed script
-        const script = document.createElement('script');
-        script.src = 'https://asset-tidycal.b-cdn.net/js/embed.js';
-        script.async = true;
-        document.body.appendChild(script);
-
-        return () => {
-            // Cleanup: remove script on unmount
-            const existingScript = document.querySelector('script[src="https://asset-tidycal.b-cdn.net/js/embed.js"]');
-            if (existingScript) {
-                document.body.removeChild(existingScript);
-            }
-        };
-    }, []);
 
     return (
         <>
             <SEO
-                title="Contact | Book a Call | manuv.co"
-                description="Schedule a strategy call to discuss your AI and automation needs. Custom white-glove service with direct access to our engineering team."
-                keywords="AI consultation, automation consultation, book a call"
-                canonical="https://manuv.co/contact"
+                title="Contact Us | Catmo Media"
+                description="Get in touch with Catmo Media. Inquiries? New projects? Drop us a message and let's see if there's a fit."
+                keywords="contact Catmo Media, digital advertising consultation, marketing inquiry"
+                canonical="https://www.catmomedia.ca/contact"
             />
 
             <div className="min-h-screen bg-background pt-32 pb-24">
                 <div className="max-w-4xl mx-auto px-6">
                     <motion.div {...fadeInUp} className="text-center mb-16">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                            Let's talk.
+                            Inquiries? New Projects?
                         </h1>
                         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                            Book a call with our engineering team. Custom white-glove service —
-                            a direct conversation about what you're trying to build.
+                            Reach out! We love to keep a streamlined operation, and a satisfying relationship with our clients is paramount to success for both parties.
                         </p>
                     </motion.div>
 
@@ -61,18 +44,17 @@ export const ContactPage = () => {
                                 <Calendar className="w-8 h-8 text-primary" />
                             </div>
 
-                            <h2 className="text-2xl font-bold mb-4">Schedule a Strategy Call</h2>
+                            <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
                             <p className="text-muted-foreground mb-8 max-w-lg mx-auto">
-                                30-minute call to understand your goals, discuss potential solutions,
-                                and determine if we're the right fit.
+                                Drop us a message, and let's see if there's a fit. It is much easier to drive results for a business we support 100%.
                             </p>
 
-                            {/* TidyCal Calendar Embed */}
-                            <div className="bg-background/50 border border-white/5 rounded-2xl p-8 mb-8 min-h-[600px]">
-                                <div 
-                                    className="tidycal-embed" 
-                                    data-path="abhixchawla/manuvstrategy"
-                                />
+                            {/* Contact Form Placeholder */}
+                            <div className="bg-background/50 border border-white/5 rounded-2xl p-8 mb-8 min-h-[400px] flex items-center justify-center">
+                                <div className="text-center">
+                                    <p className="text-muted-foreground mb-4">Contact form will be integrated here</p>
+                                    <p className="text-sm text-muted-foreground">Name, Email, Message fields</p>
+                                </div>
                             </div>
                         </div>
                     </motion.div>
@@ -82,17 +64,36 @@ export const ContactPage = () => {
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="text-center"
+                        className="text-center space-y-8"
                     >
-                        <p className="text-muted-foreground mb-4">
-                            Prefer email? Reach us directly at
-                        </p>
-                        <a
-                            href="mailto:hello@manuv.co"
-                            className="text-xl font-semibold text-primary hover:underline"
-                        >
-                            hello@manuv.co
-                        </a>
+                        <div>
+                            <p className="text-muted-foreground mb-4 font-mono text-xs uppercase tracking-widest">
+                                Prefer email?
+                            </p>
+                            <a
+                                href="mailto:info@catmomedia.ca"
+                                className="text-2xl font-bold text-white hover:text-primary transition-colors"
+                            >
+                                info@catmomedia.ca
+                            </a>
+                        </div>
+
+                        <div className="pt-4">
+                            <p className="text-muted-foreground mb-4 font-mono text-xs uppercase tracking-widest">
+                                Social
+                            </p>
+                            <a
+                                href="https://www.linkedin.com/company/catmomedia/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-2 text-xl font-semibold text-white/80 hover:text-[#4148ff] transition-all duration-300 group"
+                            >
+                                <span className="p-2 rounded-lg bg-white/5 group-hover:bg-[#4148ff]/10 border border-white/10 group-hover:border-[#4148ff]/30 transition-all">
+                                    <Linkedin className="w-6 h-6" />
+                                </span>
+                                <span>Connect on LinkedIn</span>
+                            </a>
+                        </div>
                     </motion.div>
 
                     {/* Trust Builder */}
@@ -105,7 +106,7 @@ export const ContactPage = () => {
                     >
                         <div className="inline-block border border-white/10 rounded-full px-6 py-3">
                             <p className="text-sm text-muted-foreground">
-                                <span className="text-foreground font-medium">Response time:</span> We typically respond within 24 hours
+                                <span className="text-foreground font-medium">Boutique service:</span> Personalized attention for every client
                             </p>
                         </div>
                     </motion.div>

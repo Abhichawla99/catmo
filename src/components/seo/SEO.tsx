@@ -19,8 +19,8 @@ export const SEO = ({ title, description, keywords, ogImage, canonical, ogUrl }:
                 faviconLink.rel = 'icon';
                 document.head.appendChild(faviconLink);
             }
-            faviconLink.type = 'image/png';
-            faviconLink.href = '/logos/manuv logo.png';
+            faviconLink.type = 'image/svg+xml';
+            faviconLink.href = '/favicon.svg';
 
             // Also set apple-touch-icon
             let appleIconLink = document.querySelector('link[rel="apple-touch-icon"]') as HTMLLinkElement;
@@ -29,7 +29,7 @@ export const SEO = ({ title, description, keywords, ogImage, canonical, ogUrl }:
                 appleIconLink.rel = 'apple-touch-icon';
                 document.head.appendChild(appleIconLink);
             }
-            appleIconLink.href = '/logos/manuv logo.png';
+            appleIconLink.href = '/favicon.svg';
         };
 
         setFavicon();

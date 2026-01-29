@@ -108,13 +108,19 @@ export function FreeAgentPopup() {
               </ul>
 
               {/* CTA Button */}
-              <Link to="/contact" onClick={handleBookCall}>
+              <a
+                href="https://calendar.app.google/QdxMrAa98Eq9Q7aU7"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={handleBookCall}
+                className="block w-full"
+              >
                 <Button
                   className="w-full bg-primary hover:bg-primary/90 text-white font-semibold py-6 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(255,0,136,0.4)]"
                 >
                   Book Your Free Discovery Call
                 </Button>
-              </Link>
+              </a>
 
               {/* Small text */}
               <p className="text-xs text-muted-foreground text-center mt-4">

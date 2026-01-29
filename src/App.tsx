@@ -9,6 +9,7 @@ import { FloatingChatBar } from './components/ui/floating-chat-bar';
 import { FreeAgentPopup } from './components/FreeAgentPopup';
 import { FreeAgentBanner } from './components/FreeAgentBanner';
 import { ChatProvider, useChat } from './contexts/ChatContext';
+import { GlobalGlow } from './components/ui/global-glow';
 import { HomePage } from './pages/HomePage';
 import { ServicesPage } from './pages/ServicesPage';
 import { WorkPage } from './pages/WorkPage';
@@ -155,6 +156,8 @@ import { ManuvDataProcessingSolutionPage } from './pages/solutions-manuv/ManuvDa
 // manuv.co Case Studies Pages
 import { ManuvCaseStudyEcommercePage } from './pages/case-studies-manuv/ManuvCaseStudyEcommercePage';
 import { ManuvCaseStudySaaSPage } from './pages/case-studies-manuv/ManuvCaseStudySaaSPage';
+import { CleanfinitiCaseStudyPage } from './pages/case-studies-manuv/CleanfinitiCaseStudyPage';
+import { LuxuryFashionRetailerCaseStudyPage } from './pages/case-studies-manuv/LuxuryFashionRetailerCaseStudyPage';
 // manuv.co Industries Pages
 import { ManuvForSaaSCompaniesPage } from './pages/industries-manuv/ManuvForSaaSCompaniesPage';
 import { ManuvForEcommercePage } from './pages/industries-manuv/ManuvForEcommercePage';
@@ -184,8 +187,8 @@ function AppContent() {
         faviconLink.rel = 'icon';
         document.head.appendChild(faviconLink);
       }
-      faviconLink.type = 'image/png';
-      faviconLink.href = '/logos/manuv logo.png';
+      faviconLink.type = 'image/svg+xml';
+      faviconLink.href = '/favicon.svg';
 
       // Also set apple-touch-icon
       let appleIconLink = document.querySelector('link[rel="apple-touch-icon"]') as HTMLLinkElement;
@@ -194,7 +197,7 @@ function AppContent() {
         appleIconLink.rel = 'apple-touch-icon';
         document.head.appendChild(appleIconLink);
       }
-      appleIconLink.href = '/logos/manuv logo.png';
+      appleIconLink.href = '/favicon.svg';
     };
 
     setFavicon();
@@ -205,7 +208,8 @@ function AppContent() {
 
   return (
     <Router>
-      <div className="min-h-screen bg-background text-foreground selection:bg-primary/30">
+      <div className="min-h-screen bg-background text-foreground selection:bg-primary/30 relative">
+        <GlobalGlow />
         <Navbar />
         <main>
           <Routes>
@@ -355,6 +359,8 @@ function AppContent() {
             {/* manuv.co Case Studies Routes */}
             <Route path="/case-studies-manuv/manuv-case-study-ecommerce" element={<ManuvCaseStudyEcommercePage />} />
             <Route path="/case-studies-manuv/manuv-case-study-saas" element={<ManuvCaseStudySaaSPage />} />
+            <Route path="/case-studies-manuv/cleanfiniti-google-ads" element={<CleanfinitiCaseStudyPage />} />
+            <Route path="/case-studies-manuv/luxury-fashion-retailer" element={<LuxuryFashionRetailerCaseStudyPage />} />
             {/* manuv.co Industries Routes */}
             <Route path="/industries-manuv/manuv-for-saas-companies" element={<ManuvForSaaSCompaniesPage />} />
             <Route path="/industries-manuv/manuv-for-ecommerce" element={<ManuvForEcommercePage />} />
