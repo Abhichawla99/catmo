@@ -106,7 +106,7 @@ export const WhyAgents = () => {
     );
 
     return (
-        <section ref={containerRef} className="relative h-[650vh] bg-black">
+        <section ref={containerRef} className="relative min-h-screen lg:h-[400vh] bg-black">
             {/* Preamble Content */}
             <div className="max-w-7xl mx-auto px-6 pt-40 pb-20 text-center relative z-20">
                 <motion.div
@@ -132,13 +132,70 @@ export const WhyAgents = () => {
                 </motion.div>
             </div>
 
-            {/* Sticky Viewport */}
-            <div className="sticky top-0 h-screen w-full flex flex-col items-center justify-center overflow-hidden">
+
+
+            {/* Mobile/Tablet Walkthrough View - Vertical Cards */}
+            <div className="flex flex-col gap-8 px-6 pb-20 lg:hidden relative z-10">
+                {steps.map((step, i) => {
+                    const Icon = step.icon;
+                    return (
+                        <div
+                            key={i}
+                            className="group relative bg-white/[0.03] border border-white/10 rounded-3xl p-8 overflow-hidden backdrop-blur-sm"
+                        >
+                            {/* Ambient Glow */}
+                            <div
+                                className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-white/10 to-transparent blur-3xl opacity-20"
+                                style={{ background: step.color }}
+                            />
+
+                            <div className="flex flex-col gap-6 relative z-10">
+                                {/* Header */}
+                                <div className="flex items-start justify-between">
+                                    <div className="w-12 h-12 rounded-xl border border-white/10 bg-white/5 flex items-center justify-center">
+                                        <Icon className="w-6 h-6 text-white/90" />
+                                    </div>
+                                    <span className="text-4xl font-black italic text-white/5" style={{ color: `${step.color}20` }}>
+                                        {step.metric}
+                                    </span>
+                                </div>
+
+                                {/* Content */}
+                                <div className="space-y-4">
+                                    <div>
+                                        <h4 className="text-primary text-xs font-mono uppercase tracking-widest mb-2" style={{ color: step.color }}>
+                                            {step.subtitle}
+                                        </h4>
+                                        <h3 className="text-2xl font-bold text-white mb-2">
+                                            {step.title}
+                                        </h3>
+                                    </div>
+                                    <p className="text-white/60 leading-relaxed text-sm">
+                                        {step.description}
+                                    </p>
+                                </div>
+
+                                {/* Footer Metrics */}
+                                <div className="pt-6 border-t border-white/5 flex items-center justify-between">
+                                    <div className="flex items-center gap-2">
+                                        <div className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: step.color }} />
+                                        <span className="text-[10px] font-mono text-white/40 uppercase tracking-wider">{step.systemStatus}</span>
+                                    </div>
+                                    <span className="text-xs font-bold text-white/80">{step.stat}</span>
+                                </div>
+                            </div>
+                        </div>
+                    );
+                })}
+            </div>
+
+            {/* Desktop Sticky Viewport */}
+            <div className="hidden lg:flex sticky top-0 h-screen w-full flex-col items-center justify-center overflow-hidden">
 
                 {/* Dynamic Background Glow */}
                 <motion.div
                     style={{ background: activeColor }}
-                    className="absolute w-[1200px] h-[1200px] rounded-full blur-[300px] opacity-[0.05] pointer-events-none"
+                    className="absolute w-[800px] h-[800px] rounded-full blur-[120px] opacity-[0.05] pointer-events-none"
                     animate={{
                         scale: [1, 1.2, 1],
                         rotate: [0, 90, 0]
@@ -395,6 +452,6 @@ export const WhyAgents = () => {
                     text-orientation: mixed;
                 }
             `}</style>
-        </section>
+        </section >
     );
 };

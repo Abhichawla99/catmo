@@ -35,7 +35,7 @@ export function FreeAgentBanner() {
             <div className="flex items-center gap-3 flex-1 min-w-0">
               <Gift className="w-5 h-5 text-white flex-shrink-0" />
               <p className="text-white text-sm md:text-base font-medium truncate">
-                <span className="font-bold">Limited Offer:</span> Get your first AI agent built for free—no strings attached
+                <span className="font-bold">Limited Offer:</span> Get a free comprehensive digital strategy roadmap—no strings attached
               </p>
             </div>
 

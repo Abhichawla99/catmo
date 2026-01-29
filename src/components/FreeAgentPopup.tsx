@@ -74,15 +74,15 @@ export function FreeAgentPopup() {
 
               {/* Headline */}
               <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">
-                Get Your First AI Agent{' '}
+                Unlock Your Free{' '}
                 <span className="bg-gradient-to-r from-primary via-pink-400 to-primary bg-clip-text text-transparent">
-                  Free
+                  Digital Growth Strategy
                 </span>
               </h2>
 
               {/* Subheadline */}
               <p className="text-muted-foreground text-center mb-6 text-sm md:text-base">
-                No strings attached. Book a 30-minute call to discuss your team's challenges, and we'll build your first AI agent completely free.
+                Book a 30-minute discovery call, and we'll deliver a comprehensive digital advertising roadmap tailored to your business—completely free.
               </p>
 
               {/* Benefits */}
@@ -91,19 +91,19 @@ export function FreeAgentPopup() {
                   <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                     <div className="w-2 h-2 rounded-full bg-primary" />
                   </div>
-                  <span className="text-muted-foreground">Understand your workflow and identify automation opportunities</span>
+                  <span className="text-muted-foreground">Understand your market position and growth opportunities</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                     <div className="w-2 h-2 rounded-full bg-primary" />
                   </div>
-                  <span className="text-muted-foreground">Get a custom AI agent built specifically for your needs</span>
+                  <span className="text-muted-foreground">Get a custom advertising strategy built for your goals</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                     <div className="w-2 h-2 rounded-full bg-primary" />
                   </div>
-                  <span className="text-muted-foreground">Zero commitment—see the value before deciding anything</span>
+                  <span className="text-muted-foreground">Zero commitment—see the roadmap before deciding anything</span>
                 </li>
               </ul>
 
@@ -118,13 +118,13 @@ export function FreeAgentPopup() {
                 <Button
                   className="w-full bg-primary hover:bg-primary/90 text-white font-semibold py-6 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(255,0,136,0.4)]"
                 >
-                  Book Your Free Discovery Call
+                  Book Your Free Strategy Call
                 </Button>
               </a>
 
               {/* Small text */}
               <p className="text-xs text-muted-foreground text-center mt-4">
-                No credit card required • 30-minute call • Get your agent within 7 days
+                No credit card required • 30-minute call • Get your roadmap within 7 days
               </p>
             </div>
           </motion.div>
